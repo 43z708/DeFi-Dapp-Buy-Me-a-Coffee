@@ -9,4 +9,4 @@ services:
         volumes:
             - ./:/mnt
         tty: true
-        working_dir: /mnt
+        working_dir: /mnt/BuyMeACoffee-contracts
