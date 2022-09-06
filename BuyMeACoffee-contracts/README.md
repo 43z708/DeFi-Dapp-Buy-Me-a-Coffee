@@ -1,13 +1,22 @@
-# Sample Hardhat Project
-
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
-
-Try running some of the following tasks:
+test BuyMeACoffee.sol
 
 ```shell
-npx hardhat help
-npx hardhat test
-GAS_REPORT=true npx hardhat test
-npx hardhat node
+npx hardhat run scripts/buy-coffee.js
+# local
 npx hardhat run scripts/deploy.js
 ```
+
+```shell
+# goerli deploy
+npx hardhat run scripts/deploy.js --network goerli
+# withdraw
+npx hardhat run scripts/withdraw.js
+```
+
+My contract is
+https://goerli.etherscan.io/address/0xedfCa82A1900C9BdFD37149e79a60133ec15d396
+
+My app is
+https://buymeacoffee-solidity-defi-tipping-app.43z708.repl.co/
+
+https://replit.com/@43z708/BuyMeACoffee-Solidity-DeFi-Tipping-app
